@@ -1,5 +1,7 @@
 use warnings;
 use strict;
+use FindBin qw();
+use lib "$FindBin::RealBin/../";
 
 BEGIN {
     if ($^O =~ m/^(?:qnx|nto|vos|MSWin32)$/ ) {
